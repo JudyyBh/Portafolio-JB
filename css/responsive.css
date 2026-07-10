@@ -1,0 +1,97 @@
+/*=========================================
+        RESPONSIVE
+==========================================*/
+
+
+/*==============================
+      LAPTOP GRANDE
+===============================*/
+
+@media (max-width:1400px){
+
+}
+
+
+/*==============================
+      LAPTOP
+===============================*/
+
+@media (max-width:1200px){
+
+}
+
+
+/*==============================
+      TABLET
+===============================*/
+
+@media (max-width:768px){
+
+    header{
+        padding:20px 5%;
+    }
+
+    .menu{
+        position:fixed;
+        top:0;
+        right:-100%;
+        width:280px;
+        height:100vh;
+        background:#111827;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        gap:30px;
+        transition:.4s;
+        z-index:999;
+    }
+
+    .menu.active{
+        right:0;
+    }
+
+    .menu-toggle{
+        display:flex;
+        z-index:1000;
+    }
+
+    .menu a{
+        font-size:20px;
+    }
+
+}
+/*==============================
+      TABLET PEQUEÑA
+===============================*/
+
+@media (max-width:768px){
+
+}
+
+
+/*==============================
+      CELULAR GRANDE
+===============================*/
+
+@media (max-width:576px){
+
+}
+
+
+/*==============================
+      CELULAR
+===============================*/
+
+@media (max-width:480px){
+
+}
+
+
+/*==============================
+      CELULAR PEQUEÑO
+===============================*/
+
+@media (max-width:360px){
+
+}
